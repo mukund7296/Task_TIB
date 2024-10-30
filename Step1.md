@@ -1,6 +1,4 @@
-Here’s a structured README file based on your project description:
 
-```markdown
 # Virology and Epidemiology AI Research Collection
 
 This repository contains the dataset `collection_with_abstracts.csv`, compiled via queries issued to the PubMed database. PubMed is one of the largest databases indexing publications in the Life Sciences.
@@ -33,10 +31,6 @@ Fields marked as "optional" may not be present for all records within the datase
 ## 🌐 Accessing Full Texts
 
 The PubMed Central (PMC) database, a subset of PubMed records, provides access to the full text of articles in XML format or other formats. Articles can be accessed via the API using the following URL: 
-
-```
-https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=[insert-pmcid-here]
-```
 
 Replace `[insert-pmcid-here]` with the actual PMCID of the article.
 
@@ -83,6 +77,3 @@ Total records after deduplication based on PMID: 11,450
 
 ## 🗂️ Files Included
 - `collection_with_abstracts.csv`: The main dataset containing unique papers and their abstracts.
-
-Feel free to explore the dataset and reach out for any questions or further information!
-```
