@@ -1,5 +1,12 @@
 # Semantic NLP Filtering for Deep Learning Papers in Virology/Epidemiology
 
+# Directory Structure
+.
+├── main.py                # Main script to filter, classify, and extract data
+├── README.md              # Project documentation
+├── requirements.txt       # Required libraries
+└── data                   # Directory to store the dataset (CSV file)
+
 ## Overview
 This project aims to filter, classify, and extract relevant information from a dataset of academic papers focused on virology and epidemiology. The dataset, sourced from PubMed, includes papers that might implement deep learning methods. Using semantic natural language processing (NLP) techniques, this script identifies papers applying neural network-based solutions in the targeted fields and classifies them by the type of method used.
 
@@ -15,11 +22,7 @@ The dataset is accessible at the Virology AI Papers Repository and contains 11,4
 - **Python 3.8+**
 - Python packages listed in `requirements.txt`
 
-## Directory Structure
-├── main.py                # Main script to filter, classify, and extract data
-├── README.md              # Project documentation
-├── requirements.txt       # Required libraries
-└── data                   # Directory to store the dataset (CSV file)
+
 
 
 ## Installation
