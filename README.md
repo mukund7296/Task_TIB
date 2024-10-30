@@ -15,6 +15,12 @@ The dataset is accessible at the Virology AI Papers Repository and contains 11,4
 - **Python 3.8+**
 - Python packages listed in `requirements.txt`
 
+## Directory structure
+```
+├── main.py                # Main script to filter, classify, and extract data
+├── README.md              # Project documentation
+├── requirements.txt       # Required libraries
+└── data                   # Directory to store the dataset (CSV file)
 
 
 
